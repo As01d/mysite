@@ -39,17 +39,6 @@
         <figcaption>Э. Таненбаум</figcaption>
     </figure>
 
-
-    <video controls wirth="450" height="320"
-           //autoplayloopmuted
-           poster="images/eblo.jpg">
-        <source src="video/road.mp4" type="video/mp4" />
-        <source src="video/road.webm" type="video/webm" />
-        <p>Your browser doesn't support HTML5. Here is a <a href="video/road.mp4">link to the video</a>instead</p>
-    </video>
-
-
-
     <dl>
         <dt>Архитектура компютера. Э. Таненбаум Т. Остин</dt>
         <dd>
@@ -67,6 +56,22 @@
             <cite>здесь</cite>
         </a>.
     </p>
+
+    <img srcset="images/up480.jpg 965w,
+                 images/up800.jpg 1825w" 
+         
+         sizes="(max-width:965px) 480px,
+                (max-width:1825px) 965px,
+               1825px"
+         
+         src="images/up800.jpg" alt="up800.jpg"/>
+
+    <video controls wirth="450" height="320"
+           poster="images/eblo.jpg">
+        <source src="video/road.mp4" type="video/mp4" />
+        <source src="video/road.webm" type="video/webm" />
+        <p>Your browser doesn't support HTML5. Here is a <a href="video/road.mp4">link to the video</a>instead</p>
+    </video>
 
     <audio controls>
         <source src="audio/closeeyes.mp3" type="audio/mp3" />
