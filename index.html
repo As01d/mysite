@@ -17,11 +17,13 @@
     </dl>
     <hr>
 
-    <picture>
-        <source media="(max-width: 999px)" srcset="images/pic480.jpg" />
-        <source media="(min-width: 1000px)" srcset="images/pic800.jpg" />
-        <img src="images/pic800.jpg" alt="pic800.jpg" />
-    </picture>
+    <div>
+        <picture>
+            <source media="(max-width: 999px)" srcset="images/pic480.jpg" />
+            <source media="(min-width: 1000px)" srcset="images/pic800.jpg" />
+            <img src="images/pic800.jpg" alt="pic800.jpg" />
+        </picture>
+    </div>
 
 
     <header>
@@ -57,14 +59,32 @@
         </a>.
     </p>
 
-    <img srcset="images/up480.jpg 965w,
-                 images/up800.jpg 1825w" 
-         
-         sizes="(max-width:965px) 480px,
-                (max-width:1825px) 965px,
-               1825px"
-         
-         src="images/up800.jpg" alt="up800.jpg"/>
+    <table>
+        <tr>
+            <th>EN RU</th>
+        </tr>
+        <tr>
+            <td>value</td>
+            <td>ценность</td>
+        </tr>
+        <tr>
+            <td>signed integers</td>
+            <td>целое число со знаком</td>
+        </tr>
+        <tr>
+            <td>restriction</td>
+            <td>ограничение</td>
+        </tr>
+    </table>
+
+    <div>
+        <img srcset="images/up480.jpg 965w,
+                     images/up800.jpg 1825w"
+             sizes="(max-width:965px) 480px,
+                    (max-width:1825px) 965px,
+                    1825px"
+             src="images/up800.jpg" alt="up800.jpg" />
+    </div>
 
     <video controls wirth="650" height="520"
            poster="images/eblo.jpg">
@@ -79,19 +99,20 @@
         <p>Your browser doesn't support HTML5. Here is a <a href="closeeyes.mp3">link to the audio</a>instead.</p>
     </audio>
 
-    <p>
-        <a href="https://www.youtube.com" title="Сайт уверенного пользования" target="_blank">
-            <img src="images/youtube.png" width="70" height="60" />
-        </a>
-        <a href="https://www.rutube.ru" title="Сайт тотальной доминации" target="_blank">
-            <img src="images/rutube.png" width="70" height="70" />
-        </a>
-    <p>
-        <script src="scripts/main.js"></script>
+    <article>
+        <p>
+            <a href="https://www.youtube.com" title="Сайт уверенного пользования" target="_blank">
+                <img src="images/youtube.png" width="70" height="60" />
+            </a>
+            <a href="https://www.rutube.ru" title="Сайт тотальной доминации" target="_blank">
+                <img src="images/rutube.png" width="70" height="70" />
+            </a>
+        <p>
+    </article>
 
+    <script src="scripts/main.js"></script>
 
-
-        <footer>Все права защищены, так сказать.</footer>
+    <footer>Все права защищены, так сказать.</footer>
 
 </body>
 </html>
