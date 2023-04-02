@@ -2,7 +2,7 @@ html {
     background-color:#e9d6ff
 }
 
-h1 {
+/*h1 {
     color:brown;
     font-size:5em;
 }
@@ -15,4 +15,25 @@ p {
 .special {
     color: midnightblue;
     font-weight: bold;
+}
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    color: midnightblue;
+}
+
+a:visited {
+    color: indianred;
+}*/
+
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
 }
