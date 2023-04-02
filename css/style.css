@@ -2,7 +2,7 @@ html {
     background-color:#e9d6ff
 }
 
-/*h1 {
+h1 {
     color:brown;
     font-size:5em;
 }
@@ -30,7 +30,7 @@ a:link {
 
 a:visited {
     color: indianred;
-}*/
+}
 
 body h1 + p .special {
     color: yellow;
