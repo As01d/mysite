@@ -11,3 +11,8 @@ p {
     color:chocolate;
     font-size:2em;
 }
+
+.special {
+    color: midnightblue;
+    font-weight: bold;
+}
