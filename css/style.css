@@ -7,6 +7,20 @@ h1 {
     font-size:5em;
 }
 
+.outer {
+    border: 5px solid black;
+    width: 620px;
+    font-size: 24px;
+}
+
+.box {
+    margin: 10px;
+    padding: 10px;
+    width: 580px;
+    background-color: blueviolet;
+    color: white;
+}
+
 p {
     color:chocolate;
     font-size:2em;
