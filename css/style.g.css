@@ -1,5 +1,5 @@
 #first {
-    font: 20px Arial;
+    font: 24px Arial;
     color: black;
     text-align: center;
     word-spacing: 1rem;
@@ -11,10 +11,14 @@ h1 {
     border-bottom: 5px solid #a92626;
 }
 
+/*audio {
+    margin: 0 auto;
+}*/
+
 p {
     text-align: center;
-    font: 16px Arial;
-    line-height: 0.7;
+    font: 18px Arial;
+    line-height: 0.5;
 }
 
 .special {
