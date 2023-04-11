@@ -1,10 +1,14 @@
-#first {
-    font: 24px Arial;
-    color: black;
+.first li {
     text-align: center;
-    word-spacing: 1rem;
-}
+    font: 24px Arial;
+    color: #fff;
+    background-color: #a92626;
+    width: 200px;
+    padding: 1em;
+    margin: 0px 0px 0px 150px;
+    display: inline-block;
 
+}
 h1 {
     text-align: center;
     font: 26px Arial; line-height: 2;
@@ -29,12 +33,8 @@ p {
     font-weight: bold;
 }
 
-a:visited {
-    color: #808080;
-}
-
-a:link {
-    color: black;
+a:visited, link {
+    color: #fff;
 }
 
 a:hover {
