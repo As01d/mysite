@@ -1,13 +1,12 @@
 .first li {
     text-align: center;
-    font: 24px Arial;
+    font: 22px Arial;
     color: #fff;
     background-color: #a92626;
     width: 150px;
     padding: 1em;
-    margin: 0px 0px 0px 150px;
+    text-decoration: none;
     display: inline-block;
-
 }
 h1 {
     text-align: center;
