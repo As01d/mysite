@@ -3,7 +3,7 @@
     font: 24px Arial;
     color: #fff;
     background-color: #a92626;
-    width: 200px;
+    width: 150px;
     padding: 1em;
     margin: 0px 0px 0px 150px;
     display: inline-block;
@@ -19,9 +19,9 @@ ul {
     list-style: none;
 }
 
-/*audio {
-    margin: 0 auto;
-}*/
+.audio {
+    margin: 0px 0px 0px 760px;
+}
 
 p {
     text-align: center;
