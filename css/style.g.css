@@ -19,7 +19,12 @@ ul {
 }
 
 .audio {
-    margin: 0px 0px 0px 760px;
+    margin: 0 42%;
+}
+
+.box {
+    border: 5px solid #a92626;
+    border-radius: 1em;
 }
 
 p {
