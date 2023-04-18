@@ -11,8 +11,20 @@
 }
 h1 {
     text-align: center;
-    font: 26px Arial; line-height: 2;
+    font: 26px Arial;
+    line-height: 2;
     border-bottom: 5px solid #a92626;
+}
+
+h2 {
+    text-align: center;
+    font: 26px Arial;
+    line-height: 2;
+    writing-mode: vertical-rl;
+    border: 1px solid #808080;
+    height: 500px;
+    padding: 1em;
+    margin: 0 5em 0 ;
 }
 
 ul {
