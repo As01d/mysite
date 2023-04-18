@@ -18,12 +18,13 @@ h1 {
 
 .block {
     display: flex;
-    padding: 2em;
-
+    padding-top: 2em;
+    margin-right: 5em;
 }
 
 .vertical {
     writing-mode: vertical-rl;
+    margin-right: 50px;
     border: 1px solid #808080;
     height: 600px;
     padding: 1em;
