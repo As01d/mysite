@@ -17,22 +17,22 @@ h1 {
 }
 
 .block {
-    margin: 20px 30px;
+    display: flex;
+    padding: 2em;
+
 }
 
 .vertical {
-    writing-mode: horizontal-tb;
+    writing-mode: vertical-rl;
     border: 1px solid #808080;
-    width: 600px;
+    height: 600px;
     padding: 1em;
-    display: inline-block;
 }
+
 .horizontal {
-    writing-mode: horizontal-tb;
     border: 1px solid #808080;
     width: 1100px;
     padding: 1em;
-    display: inline-block;
 }
 
 ul {
