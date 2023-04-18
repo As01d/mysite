@@ -16,7 +16,7 @@ h1 {
     border-bottom: 5px solid #a92626;
 }
 
-h2 {
+.vertical {
     text-align: center;
     font: 26px Arial;
     line-height: 2;
