@@ -16,14 +16,23 @@ h1 {
     border-bottom: 5px solid #a92626;
 }
 
+.block {
+    margin: 20px 30px;
+}
+
 .vertical {
-    text-align: center;
-    font: 26px Arial;
-    line-height: 2;
-    writing-mode: vertical-rl;
+    writing-mode: horizontal-tb;
     border: 1px solid #808080;
-    height: 500px;
+    width: 600px;
     padding: 1em;
+    display: inline-block;
+}
+.horizontal {
+    writing-mode: horizontal-tb;
+    border: 1px solid #808080;
+    width: 1100px;
+    padding: 1em;
+    display: inline-block;
 }
 
 ul {
