@@ -1,0 +1,26 @@
+html {
+    background-color:#e9d6ff
+}
+
+li {
+    list-style-type: none;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+thead th:nth-child(1) {
+  width: 5%;
+}
+
+
+
+
+th, td {
+    text-align: center;
+    padding: 1em;
+}
