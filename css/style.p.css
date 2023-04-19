@@ -6,21 +6,23 @@ li {
     list-style-type: none;
 }
 
+caption {
+    padding: 1em;
+}
+
 table {
     table-layout: fixed;
     width: 100%;
-    border-collapse: collapse;
-    border: 1px solid black;
+    
 }
-
-thead th:nth-child(1) {
-  width: 5%;
-}
-
-
-
 
 th, td {
     text-align: center;
     padding: 1em;
 }
+
+thead th:nth-child(1) {
+    width: 5%;
+    border: 1px solid black;
+}
+
